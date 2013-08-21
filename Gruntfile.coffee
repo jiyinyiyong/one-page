@@ -6,6 +6,7 @@ module.exports = (grunt) ->
         options:
           data:
             debug: no
+          pretty: yes
         pretty: yes
         files:
           'build/index.html': 'jade/index.jade'
@@ -13,7 +14,7 @@ module.exports = (grunt) ->
       options: {}
       compile:
         files:
-          'build/layout.css': 'stylus/layout.styl'
+          'build/layout.css': 'stylus/index.styl'
     browserify:
       options:
         transform: ['coffeeify']
