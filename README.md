@@ -53,11 +53,16 @@ But I tried to make them simple.
 I'd like to share my experience got from making pages,
 my pages are still as simple as making demos though:
 
-* CoffeeScript is modularized with Browserify
-* HTML is organized with Jade `include`
-* CSS is organized with `@import`
-* modify and reload with LiveReload
+* CoffeeScript and RequireJS
+* CSS uses `@import` and is edited mainly in Chrome workspace
+* modify and reload with doodle
 * prefer Chrome for making apps
+
+Open issues:
+
+* template engine(which should support RequireJS)
+* prefer Ractive for rendering
+* preder PouchDB to LocalStorage
 
 ### License
 
