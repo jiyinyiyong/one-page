@@ -1,0 +1,24 @@
+{
+  "name": "one-page",
+  "version": "0.0.1",
+  "homepage": "https://github.com/jiyinyiyong/one-page",
+  "authors": [
+    "jiyinyiyong <jiyinyiyong@gmail.com>"
+  ],
+  "description": "page template for single page apps",
+  "main": "index.html",
+  "keywords": [
+    "spa"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "requirejs": "~2.1.9"
+  }
+}

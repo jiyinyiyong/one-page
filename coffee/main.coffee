@@ -1,4 +1,4 @@
 
-{print} = require './utils.coffee'
+define (require, exports) ->
 
-print 'hello world'
+  console.log 'file loaded'
