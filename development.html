@@ -1,0 +1,45 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>One Page</title>
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <meta charser="utf-8">
+  <script type="text/javascript" src="bower_components/requirejs/require.js"></script>
+  <script type="text/javascript">
+    window.OnePage = {}
+    window.OnePage.lang = 'zh'
+    requirejs.config({
+      baseUrl: './',
+      paths: {
+        jquery: 'bower_components/jquery/dist/jquery',
+        requireLib: 'bower_components/requirejs/require',
+        hbs: 'bower_components/requirejs-hbs/hbs',
+        handlebars: 'bower_components/handlebars/handlebars',
+        text: 'bower_components/requirejs-text/text'
+      },
+      hbs: {
+        templateExtension: ".hbs"
+      },
+      shim: {
+        jquery: {
+          exports: 'jQuery'
+        },
+        handlebars: {
+          exports: 'Handlebars'
+        }
+      }
+    })
+    require(['src/main'])
+  </script>
+</head>
+<body>
+  <p>Hello guys</p>
+  <p>Visit
+    <a href="https://github.com/jiyinyiyong/one-page">
+      github.com/jiyinyiyong/one-page
+    </a>
+    for more
+  </p>
+</body>
+</html>

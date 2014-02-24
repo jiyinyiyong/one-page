@@ -19,6 +19,10 @@
     "tests"
   ],
   "dependencies": {
-    "requirejs": "~2.1.9"
+    "requirejs": "~2.1.9",
+    "jquery": "~2.1.0",
+    "requirejs-hbs": "git@github.com:epeli/requirejs-hbs.git",
+    "handlebars": "~1.3.0",
+    "requirejs-text": "~2.0.10"
   }
 }
