@@ -15,3 +15,13 @@ Tools used:
 * Shelljs
 * CoffeeScript
 * read `package.json` and `bower.json` to find more
+
+run this demo:
+
+```bash
+npm install -g shelljs
+npm install -g coffee-script
+npm install -d
+coffee make.coffee dev # for development
+coffee make.coffee build # for production
+```

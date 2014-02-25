@@ -4,5 +4,8 @@ define (require, exports) ->
   lang = require 'src/lang'
   panelTemplate = require 'hbs!template/panel'
 
+  $ = require 'jquery'
+
   console.log 'file loaded'
-  console.log panelTemplate(name: lang.get('panel'))
+  $('#entry').append panelTemplate(name: lang.get('panel'))
+
