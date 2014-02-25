@@ -19,8 +19,7 @@ Tools used:
 run this demo:
 
 ```bash
-npm install -g shelljs
-npm install -g coffee-script
+npm install -g shelljs coffee-script
 npm install -d
 ```
 
