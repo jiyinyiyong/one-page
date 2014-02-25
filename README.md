@@ -8,10 +8,10 @@ This demo is trying to support:
 * multi-language support
 * handlebars in development and production
 * watch-compile CoffeeScript
+* minify css
 
 Tools used:
 
-* Grunt
 * Shelljs
 * CoffeeScript
 * read `package.json` and `bower.json` to find more
@@ -22,6 +22,18 @@ run this demo:
 npm install -g shelljs
 npm install -g coffee-script
 npm install -d
-coffee make.coffee dev # for development
-coffee make.coffee build # for production
 ```
+
+for development, open `development.html`:
+
+```bash
+coffee make.coffee dev
+```
+
+for production, open 'production.html':
+
+```bash
+coffee make.coffee build
+```
+
+Demo online with Nginx: http://repo.tiye.me/one-page/
