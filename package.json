@@ -2,9 +2,8 @@
   "name": "one-page",
   "version": "0.0.1",
   "description": "an one page app",
-  "main": "build/bundle.js",
   "scripts": {
-    "test": "grunt dev"
+    "test": "echo no test here"
   },
   "repository": {
     "type": "git",
@@ -19,12 +18,7 @@
     "url": "https://github.com/jiyinyiyong/one-page/issues"
   },
   "devDependencies": {
-    "coffeeify": "~0.5.1",
-    "grunt-contrib-jade": "~0.8.0",
-    "grunt-browserify": "~1.2.3",
-    "grunt": "~0.4.2",
-    "grunt-contrib-stylus": "~0.7.0",
-    "grunt-contrib-watch": "~0.5.2",
-    "grunt-contrib-requirejs": "~0.4.1"
+    "clean-css": "~2.1.1",
+    "requirejs": "~2.1.11"
   }
 }
