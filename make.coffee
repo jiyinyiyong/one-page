@@ -4,6 +4,9 @@ CleanCSS = require 'clean-css'
 requirejs = require 'requirejs'
 
 target.coffee = ->
+  exec 'coffee -o src/ -bc coffee/'
+
+target.dev = ->
   exec 'coffee -o src/ -bcmw coffee/', async: yes
 
 target.css = ->
@@ -36,8 +39,8 @@ target.clean = ->
   rm '-rf', 'build/'
   mkdir 'build/'
 
-target.start = ->
+target.build = ->
   target.clean()
   target.css()
-  target.requirejs()
   target.coffee()
+  target.requirejs()
